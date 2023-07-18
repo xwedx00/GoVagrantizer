@@ -13,25 +13,29 @@ To install vagrant-wrapper, follow these steps:
 2. Installation steps:
 
    - Step 1: Clone the repository
+
+```https://github.com/xwedx00/GoVagrantizer.git```
    
    - Step 2: Cd into The Directory
 
+```cd GoVagrantizer```
+
    - Step 3: Build the executable using
 
-   ```go build```
+```go build```
 
 
 ## Usage
 
 To use GoVagrantizer, follow these steps:
 
-1. Generate a Vagrantfile with simplified configuration:
+- Generate a Vagrantfile with simplified configuration:
 
-   Choose option 1 when prompted.
+    - Choose option 1 when prompted.
 
-2. Generate a Vagrantfile with full configuration:
+- Generate a Vagrantfile with full configuration:
 
-   Choose option 2 when prompted.
+    - Choose option 2 when prompted.
 
 ## Configuration
 It offers two modes of configuration: simplified and full. The simplified configuration allows users to quickly generate a Vagrantfile with basic settings. The full configuration provides more advanced options, such as custom box names, IP addresses, and VM names. Follow the on-screen prompts to provide the necessary information.
